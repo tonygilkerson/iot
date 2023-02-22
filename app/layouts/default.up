@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Post Malone IOt</title>
+  <link rel="stylesheet" href="/static/style.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <script src="/static/htmx.min.js"></script>
+</head>
+
+<body>
+  <nav>
+    <table style="width:80%">
+      <tr>
+        <td width="20%" align="center">
+          <a href="/"><i class="material-icons" style="font-size:62px;">markunread_mailbox</i></a>
+        </td>
+        <td width="80%">
+          <h1>Post IOT</h1>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <a class="GoButton Blue" href="/thing1">Thing1</a> | 
+          <a class="GoButton Blue" href="/thing2">Thing2</a> | 
+          <a class="GoButton Blue" href="/thing3">Thing3</a>
+        </td>
+      </tr>
+    </table>
+  </nav>
+
+  <hr>
+  <main>
+    <table style="width:80%">
+      <tr>
+        <td width="20%" align="center">
+          &nbsp;
+        </td>
+        <td width="80%">
+          ^outputSection("contents")
+        </td>
+      </tr>
+    </table>
+    
+  </main>
+
+  <hr>
+  <footer>
+    <small>Powered by LoRa!</small>
+  </footer>
+
+</body>
+
+</html>

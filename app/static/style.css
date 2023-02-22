@@ -1,0 +1,84 @@
+
+
+/*
+  Global
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300&family=Roboto&family=Roboto+Serif&display=swap');
+
+* {
+  /* font-size: 100%; */
+  /* font-family: Arial; */
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Roboto Serif', sans-serif; */
+  /* font-family: 'Roboto', sans-serif; */
+  /* font-family: 'Poppins', sans-serif; */
+
+ }
+
+ a {
+  color: #41b6e6;
+  text-decoration: none;
+ }
+
+body {
+  /* background: #f2e9f3;  */
+  background: #eff1f2; 
+  color: #333;
+  /* font-family: "Nunito"; */
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.GoButton {
+  text-decoration: none;
+  padding: 2px 15px;
+  border-radius: 30px; /* rounded corners */
+  border: none;
+  margin: 5px;
+  font-size: medium;
+  cursor: pointer;
+}
+
+.Red {
+  color:#fff;
+  background-color: #BA0C2F;
+}
+
+.Blue {
+  color:#fff;
+  background-color: #41b6e6;
+}
+
+
+table, th, td {
+  border: 0px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+}
+
+footer {
+  text-align: center;
+}
+
+th {
+  font-weight: bold;
+  text-align: left;
+  background-color: #cccccc;
+}
+
+.Logo {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+
+.PostInput {
+  font-size: large;
+}
+
+.PostButton {
+  font-size: large;
+}
