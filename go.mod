@@ -1,4 +1,4 @@
-module github.com/tonygilkerson/malone
+module github.com/tonygilkerson/iot
 
 go 1.19
 
