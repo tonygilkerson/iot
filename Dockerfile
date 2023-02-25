@@ -16,7 +16,7 @@ RUN pushup build
 FROM golang
 
 WORKDIR /app
-RUN pwd
+
 COPY --from=build /build/build/bin/myproject .
 CMD ./myproject
 
