@@ -1,4 +1,4 @@
-module github.com/tonygilkerson/iot
+module github.com/tonygilkerson/iot-ui
 
 go 1.19
 
